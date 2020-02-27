@@ -9,18 +9,24 @@ public class Locators2 {
 		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chomedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("https://login.salesforce.com");
-		TimeUnit.SECONDS.sleep(2);
+		driver.get("https://login.salesforce.com"); //go to salesforce login webpage
+		TimeUnit.SECONDS.sleep(1);
 		
 		driver.findElement(By.id("username")).sendKeys("hello"); //type "hello" into email text input
-		TimeUnit.SECONDS.sleep(2);
+		TimeUnit.SECONDS.sleep(1);
 		
 		driver.findElement(By.cssSelector("#password")).sendKeys("123456"); //type "123456" into password text input
+		TimeUnit.SECONDS.sleep(1);
+		
+		//driver.findElement(By.xpath("//*[@id=\'forgot_password_link\']")).click(); //click forgot password link
+		//TimeUnit.SECONDS.sleep(5);
+		
+		driver.findElement(By.xpath("//*[@id=\'Login\']")).click(); //click login button
+		TimeUnit.SECONDS.sleep(1);
+		
+		System.out.println(driver.findElement(By.cssSelector("div#error.loginError")).getText()); //display login error message in console
+		
 		TimeUnit.SECONDS.sleep(2);
-		
-		driver.findElement(By.xpath("//*[@id=\'forgot_password_link\']")).click(); //click forgot password link
-		TimeUnit.SECONDS.sleep(5);
-		
 		driver.quit();
 	}
 	
