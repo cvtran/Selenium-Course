@@ -56,6 +56,8 @@ public class Dropdown {
 		arrival.sendKeys("SFO");
 		TimeUnit.SECONDS.sleep(1);
 		arrival.sendKeys(Keys.ENTER);
-		TimeUnit.SECONDS.sleep(1);
+		TimeUnit.SECONDS.sleep(5);
+		
+		driver.quit();
 	}
 }
