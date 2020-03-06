@@ -10,5 +10,10 @@
 	<classpathentry kind="lib" path="C:/Program Files/selenium-java-3.141.59/client-combined-3.141.59.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/selenium-java-3.141.59/client-combined-3.141.59-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/TestNG/testng-6.14.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/commons-io-2.6/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/commons-io-2.6/commons-io-2.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/commons-io-2.6/commons-io-2.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/commons-io-2.6/commons-io-2.6-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/commons-io-2.6/commons-io-2.6-test-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
