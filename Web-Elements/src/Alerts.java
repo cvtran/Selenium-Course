@@ -9,7 +9,7 @@ public class Alerts {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		//start webdriver and navigate to southwest.com
+		//start webdriver and navigate to alerts tutorial page
 		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chomedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");

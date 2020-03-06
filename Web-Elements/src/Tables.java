@@ -9,7 +9,7 @@ public class Tables {
 
 	public static void main (String[] args) throws InterruptedException {
 		
-		//start chrome driver and navigate to southwest.com
+		//start chrome driver and navigate to nfl.com
 		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chomedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS); //declare implicit wait
